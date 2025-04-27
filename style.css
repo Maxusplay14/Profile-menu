@@ -1,0 +1,176 @@
+/*
+Colors:
+Body: #D6D6D6
+Main: #FFF
+*/
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #d6d6d6;
+    box-sizing: border-box;
+}
+
+.main-container{
+    background-color: #fff;
+    width: 300px;
+    border-radius: 8px;
+    transform: translateY(25%);
+    margin: auto;
+    overflow: hidden;
+}
+
+.profile, .theme, .menu, .premium{
+    border-bottom: 1px solid #0001;
+}
+
+.profile{
+    padding: 10px;
+    width: 100%;
+}
+
+.profile-pic-container{
+    display: inline-block;
+}
+
+.profile-pic-container img{
+    width: 55px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.profile-info-container{
+    display: inline-block;
+    position: absolute;
+    line-height: 1.5;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+.profile-info-container h1{
+    font-size: 16px;
+    margin: 0;
+}
+
+.profile-info-container p{
+    font-size: 13px;
+    color: #8590a1;
+    margin: 0;
+}
+
+.collapse-button-container{
+    display: inline-block;
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 20px;
+}
+
+.collapse-button{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+}
+
+.theme{
+    padding: 10px;
+    text-align: center;
+}
+
+.theme-container{
+    background-color: #f3f6f7;
+    border-radius: 6px;
+    display: flex;
+    padding: 3px;
+}
+
+.theme-button--light, .theme-button--dark{
+    padding: 3px;
+    width: 50%;
+    border:none;
+    border-radius:5px;
+
+}
+
+.theme-button--light{
+    margin-right: 5px;
+    background-color: #fff;
+    color: #666d;
+}
+
+.theme-button--dark{
+    background-color: transparent;
+    color: #bbbf;
+}
+
+.menu-options-container ul{
+    list-style: none;
+    line-height: 2.5;
+    margin: 0 5px;
+    padding: 10px;
+    color: #666d;
+}
+
+.premium{
+    padding: 15px;
+}
+
+.premium-pic-container, .premium-info-container, .premium-button-container{
+    display: inline-block;
+}
+
+.premium-pic-container img{
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    border: 1px solid #bbb1
+}
+
+.premium-info-container{
+    line-height: 1.5;
+    margin-left: 10px;
+}
+
+.premium-info-container strong{
+    font-size: 14px;
+    color: #000b;
+    margin: 0;
+}
+
+.premium-info-container p{
+    font-size: 12px;
+    color: #8590a1;
+    margin: 0;
+}
+
+.premium-button-container{
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 14%;
+    margin-right: 50%;
+}
+
+.premium-button{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 12px;
+    color: #666;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+.logout-container{
+    display: flex;
+    padding: 10px 5px;
+}
+
+.logout{
+    color: #f00c;
+    background-color: transparent;
+    border: none;
+}
